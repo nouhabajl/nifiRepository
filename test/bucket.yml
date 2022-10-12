@@ -1,6 +1,6 @@
 flows:
-  ea2516e1-0c80-4768-8093-dcd7a7e9d71e: {ver: 1, file: process_goup.snapshot, comments: First
-      save, author: anonymous, created: 1665589356375, flowName: process goup, flowDesc: generate
+  ea2516e1-0c80-4768-8093-dcd7a7e9d71e: {ver: 2, file: process_goup.snapshot, comments: Second
+      save, author: anonymous, created: 1665589564869, flowName: process goup, flowDesc: generate
       flowfiles and store attributes}
 layoutVer: 1
 bucketId: dfd16ab2-97b4-49c3-8713-9248b38961ea
