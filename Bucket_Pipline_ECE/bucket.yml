@@ -1,5 +1,5 @@
 flows:
-  94aa9a5b-7de3-4d86-b328-9eb41eac1183: {ver: 1, file: Pipeline.snapshot, comments: '',
-    author: anonymous, created: 1671638065286, flowName: Pipeline, flowDesc: ''}
+  94aa9a5b-7de3-4d86-b328-9eb41eac1183: {ver: 2, file: Pipeline.snapshot, comments: 'Second
+      commit ', author: anonymous, created: 1672141092098, flowName: Pipeline, flowDesc: ''}
 layoutVer: 1
 bucketId: 20c34d41-6006-4224-a1bd-8d1a13027817

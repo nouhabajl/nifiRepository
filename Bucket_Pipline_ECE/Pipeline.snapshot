@@ -89,12 +89,12 @@
         "name" : "Pipeline",
         "outputPorts" : [ ],
         "position" : {
-          "x" : -152.0,
-          "y" : 24.0
+          "x" : 200.0,
+          "y" : 80.0
         },
         "processGroups" : [ ],
         "processors" : [ {
-          "autoTerminatedRelationships" : [ ],
+          "autoTerminatedRelationships" : [ "success", "failure" ],
           "backoffMechanism" : "PENALIZE_FLOWFILE",
           "bulletinLevel" : "WARN",
           "bundle" : {
@@ -113,8 +113,8 @@
           "name" : "PublishKafka_2_6",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 824.0,
-            "y" : 400.0
+            "x" : 1344.0,
+            "y" : 80.0
           },
           "properties" : {
             "compression.type" : "none",
@@ -126,11 +126,11 @@
             "use-transactions" : "true",
             "acks" : "all",
             "security.protocol" : "PLAINTEXT",
-            "max.request.size" : "1 MB",
+            "max.request.size" : "1 GB",
             "sasl.token.auth" : "false",
             "Failure Strategy" : "Route to Failure",
             "partitioner.class" : "org.apache.kafka.clients.producer.internals.DefaultPartitioner",
-            "topic" : "Elections",
+            "topic" : "Election2022",
             "key-attribute-encoding" : "utf-8"
           },
           "propertyDescriptors" : {
@@ -336,14 +336,14 @@
           "name" : "GetFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : -96.0,
-            "y" : 536.0
+            "x" : 56.0,
+            "y" : 112.0
           },
           "properties" : {
             "Keep Source File" : "true",
             "Minimum File Age" : "0 sec",
             "Polling Interval" : "0 sec",
-            "Input Directory" : "/Home/Desktop/",
+            "Input Directory" : "/home/nouha/Desktop",
             "Batch Size" : "10",
             "Minimum File Size" : "0 B",
             "Ignore Hidden Files" : "true",
@@ -453,8 +453,8 @@
           "name" : "ValidateCsv",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 304.0,
-            "y" : 128.0
+            "x" : 688.0,
+            "y" : 104.0
           },
           "properties" : {
             "validate-csv-schema" : "ParseDouble,ParseChar,ParseDouble,ParseChar",
