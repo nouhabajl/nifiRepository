@@ -89,8 +89,8 @@
         "name" : "Pipeline",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 200.0,
-          "y" : 80.0
+          "x" : 560.0,
+          "y" : -464.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -113,8 +113,8 @@
           "name" : "PublishKafka_2_6",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 1344.0,
-            "y" : 80.0
+            "x" : 1544.0,
+            "y" : 88.0
           },
           "properties" : {
             "compression.type" : "none",
@@ -336,8 +336,8 @@
           "name" : "GetFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 56.0,
-            "y" : 112.0
+            "x" : 256.0,
+            "y" : 120.0
           },
           "properties" : {
             "Keep Source File" : "true",
@@ -453,8 +453,8 @@
           "name" : "ValidateCsv",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 688.0,
-            "y" : 104.0
+            "x" : 888.0,
+            "y" : 112.0
           },
           "properties" : {
             "validate-csv-schema" : "ParseDouble,ParseChar,ParseDouble,ParseChar",
